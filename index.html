@@ -9,7 +9,32 @@
 			opacity:0;
 			-webkit-transition:opacity 1.0s linear 0s;
 			transition:opacity 1.0s linear 0s;
+			 font-family: 'Helvetica', Arial, sans-serif;
+   			 font-size: 74px;
+   			 font-weight: bold;
+   			 color: #1abc9c;
+
+
 		}
+
+
+		#canvas{
+			margin-left: auto;
+   			 margin-right: auto;
+   			 display: inline;
+   			 position: fixed;
+   			 top: 40%;
+   			 left: 10%;
+   			 
+		}
+
+		.iam{
+			color: #b2b2b2;
+   			 font-family: 'Helvetica', Arial, sans-serif;
+   			 font-size: 74px;
+   			 font-weight: bold;
+		}
+
 
 		</style>
 
@@ -40,7 +65,8 @@
 
 	<body>
 
-		i am. <span id="wss"></span>
+		<div id="canvas"><span class="iam">i am.</span><span id="wss"></span> 
+		</div>
 
 <script>wss_elem = document.getElementById("wss"); wssSlide(); </script>
 	</body>
