@@ -1,0 +1,54 @@
+@charset "UTF-8";
+  
+
+#wss{
+
+      opacity:0;
+      -webkit-transition:opacity 1.0s linear 0s;
+      transition:opacity 1.0s linear 0s;
+      font-family: 'Helvetica', Arial, sans-serif;
+      font-size: 74px;
+      font-weight: bold;
+      color: #1abc9c;
+      width: 100%;
+      font-size: 400%;
+
+        }
+
+ @media only screen and (max-width: 400px){
+      #wss {
+        font-size:200%;
+        line-height: 12px;
+      }
+     }
+
+
+    #canvas{
+      margin-left: auto;
+      margin-right: auto;
+      display: inline;
+      position: fixed;
+      top: 40%;
+      left: 10%; 
+      width: 100%;
+      line-height: 25px;
+      }
+ 
+ @media only screen and (max-width: 400px){
+        #canvas {
+          font-size:150%;
+          line-height: 38px;
+           max-width: 60%;
+           
+        }
+     }
+
+
+    .iam{
+      color: #b2b2b2;
+         font-family: 'Helvetica', Arial, sans-serif;
+         font-size: 74px;
+         font-weight: bold;
+
+    }
+

@@ -1,74 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<title>Ryda – a Professional Pixel Pusher and Frontend Developer in Kuala Lumpur, MY</title>
 
-		<style>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta name="description" content="Freelance Web Designer &amp; Developer from Malaysia. I specialise in Interface Design, User Interface, JavaScript, Wordpress &amp; E-commerce.">
+	<meta name="keywords" content="freelance, web, designer, design, developer, malaysia, pixelpusher, ryda, iamryda, raida, rydarush, e-commerce, interface, iphone, ipad, tablet, media, portfolio, work, contact, play, about, me, bio, biography">
+	<meta name="author" content="Ryda Abdul Rashid">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 
-		#wss{
+	<!-- <link href='/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed' /> -->
 
-			opacity:0;
-			-webkit-transition:opacity 1.0s linear 0s;
-			transition:opacity 1.0s linear 0s;
-			 font-family: 'Helvetica', Arial, sans-serif;
-   			 font-size: 74px;
-   			 font-weight: bold;
-   			 color: #1abc9c;
-
-
-		}
-
-
-		#canvas{
-			margin-left: auto;
-   			 margin-right: auto;
-   			 display: inline;
-   			 position: fixed;
-   			 top: 40%;
-   			 left: 10%;
-   			 
-		}
-
-		.iam{
-			color: #b2b2b2;
-   			 font-family: 'Helvetica', Arial, sans-serif;
-   			 font-size: 74px;
-   			 font-weight: bold;
-		}
-
-
-		</style>
-
-		<script>
-			var wss_i = 0;
-			var wss_array =["coffee addicted","<u>pixelpusher</u>","119.81.31.34","ryda.com"];
-			var wss_elem;
-
-			function wssNext(){
-				wss_i++;
-				wss_elem.style.opacity=0;
-				if(wss_i > (wss_array.length - 1)){
-					wss_i=0;
-				}
-				setTimeout('wssSlide()',1000);
-			}
-
-			function wssSlide(){
-				wss_elem.innerHTML = wss_array[wss_i];
-				wss_elem.style.opacity=1;
-				setTimeout('wssNext()',2000);
-			}
-
-
-		</script>
+	<script src="js/screen.js"></script>
+	<link rel="stylesheet" href="css/css.css">
 
 	</head>
 
-	<body>
+<body>
 
-		<div id="canvas"><span class="iam">i am.</span><span id="wss"></span> 
-		</div>
+	<div id="canvas">
+		<span class="iam">i am.</span>
+		<span id="wss"></span> 
+	</div>
 
-<script>wss_elem = document.getElementById("wss"); wssSlide(); </script>
-	</body>
+	<script>wss_elem = document.getElementById("wss"); wssSlide();</script>
+</body>
 
 <html>		
